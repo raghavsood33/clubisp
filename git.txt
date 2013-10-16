@@ -1,0 +1,34 @@
+git init
+git status
+git add file.txt
+git add *.txt
+git reset filename.txt
+
+git commit -m "Hello Ram"
+git log
+git remote add origin https://github.com/try-git/try_git.git
+git remote add repo_name repo_url
+git push -u origin master
+
+git pull origin master
+git diff HEAD
+git diff --staged
+
+git checkout filename.txt
+
+git branch
+git branch branchname
+git checkout branchname
+git rm '*.txt'
+
+-----change to master and merge new branch
+
+git merge branchname
+
+git branch -d branchname
+
+git push
+
+
+
+
